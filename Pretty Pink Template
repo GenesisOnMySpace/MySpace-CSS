@@ -1,0 +1,225 @@
+body {
+     background-color: white;
+     background-image: url(https://media.giphy.com/media/3d63YDxRJRtkZepvGm/giphy.gif);
+     background-attachment: fixed;
+     background-size: 1450px;
+     -webkit-animation: fadeIn ease 3s;
+}
+
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+.topLeft {
+     background-color: white;
+     position: fixed;
+     border: 1px double black;
+     border-bottom-radius-right: 20px;
+     border-bottom-radius-left: 20px;
+     width: 350px;
+     text-align: center;
+     box-shadow: 0px 0px 45px white;
+}
+.avatar {
+     border-radius: 100%;
+     border: 1px solid black;
+     box-shadow: 0px 0px 15px black;
+}
+.topRight {
+    float: right;
+    width: calc( 60% - 20px );
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black; 
+    box-shadow: 0px 0px 15px white;
+}
+.rightHead {
+    background: url(https://media.giphy.com/media/xT0xeifG3YWtHJ4HQI/giphy.gif);
+    background-size: 700px;
+    color: white;
+    padding-left: 4px;
+    text-align: center;
+    height: 24px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.boxHead {
+    background: url(https://media.giphy.com/media/xT0xeifG3YWtHJ4HQI/giphy.gif);
+    color: white;
+    padding: 3px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    height: 24px;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    background-size: 700px;
+}
+.fwiendFace img {
+    width: calc( 100% );
+    border-radius: 100%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 15px black;
+}
+#viewFriends {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fwiendCounter {
+    display: none;
+    height: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.tableRight {
+    width: 75%;
+    background: white;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+.tableLeft {
+    background: white;
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.boxInfo {
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.tableLeft img {
+    max-width: calc(100%);
+    image-orientation: from-image;
+    border: 1px solid black;
+    border-radius: 100%;
+    box-shadow: 0px 0px 15px black;
+}
+h4 {
+    color: black;
+    margin-bottom: 0px;
+}
+div#header {
+    text-align: center;
+    color: black;
+    background-image: url(https://i.imgur.com/BDt7fmL.jpg);
+    font-family: monospace;
+    border: 1px solid black;
+    background-size: 500px;
+    font-color: black;
+}
+a.logo {
+    color: black;
+    text-decoration: none;
+}
+#header a:not(.logo) {
+    margin-left: 10px;
+    color: black;
+    font-size: small;
+    text-decoration: none;
+}
+div#hSub {
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    font-family: courier;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+#hSub a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+#report { 
+    font-size: 0px; 
+    background-image:url(https://i.imgur.com/DcBPyFj.gif);
+    background-size: contain; 
+} 
+#report:after { 
+    content:"Report";
+    font-size: medium; 
+    color:black; padding-left: 10px; 
+} 
+#block { 
+    font-size: 0px; 
+    background-image:url(https://i.imgur.com/DcBPyFj.gif);
+    background-size: contain; 
+} 
+
+#block:after { 
+    content:"Block";
+    font-size: medium; 
+    color:black; padding-left: 10px; 
+} 
+#add{ 
+    font-size: 0px; 
+    background-image:url(https://i.imgur.com/DcBPyFj.gif);
+    background-size: contain; 
+} 
+
+#add:after { 
+    content:"Friend";
+    font-size: medium; 
+    color:black; padding-left: 10px; 
+} 
+#sMsg { 
+    font-size: 0px; 
+    background-image:url(https://i.imgur.com/DcBPyFj.gif);
+    background-size: contain; 
+} 
+#sMsg:after { 
+    content:"Message";
+    font-size: medium; 
+    color:black; padding-left: 10px; 
+
+} 
+.tableLeft > a > div {
+    overflow: hidden;
+    max-width: 115px;
+    text-align: center;
+    margin-left: 10px;
+}
+.url { 
+    border: transparent; 
+    font-size: 0px; 
+    background: url(https://i.imgur.com/MnwWwdy.gif); 
+    background-size: 260px; 
+    position: fixed; 
+    right: 0; 
+    bottom: 0; 
+    color: transparent !important; 
+    height: 280px; 
+    width: 260px; 
+    border: none; 
+    box-shadow: none; 
+    padding: 0 !important;
+} 
+.player {
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;
+    color: black;
+    border: transparent;
+    width: calc(100% - 10px );
+}
+div#footer::after {
+    content: " CSS template made by Genesis on myspace.windows93.net";
+}
+.blog {
+    background-color: white;
+    padding: 15px;
+}
+.topLeft.blogCard {
+    margin-right: 10px;
+}
+.uName {
+     text-align: center;
+}
