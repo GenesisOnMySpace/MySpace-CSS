@@ -1,0 +1,326 @@
+body{
+    background-color: black;
+    background-image: url(https://i.imgur.com/Yv3KIrR.gif);
+    background-attachment: fixed;
+    background-size: 1450px;
+}
+.topLeft {
+    left: 0;
+    float: left;
+    width: 350px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: black;
+    position: fixed;
+    margin-top: 150px;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px #59fffc;
+    color: white;
+    text-align: center;
+}
+.avatar {
+    width: 200px;
+    margin-right: 20px;
+    cursor: zoom-in;
+    image-orientation: from-image;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px #59fffc;
+    border: 2px solid white;
+}
+#name.uName {
+    display: block;
+    content: "";
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 5px #59fffc;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.url { 
+    border: transparent; 
+    font-size: 0px; 
+    background: url(https://i.imgur.com/aKWTFYn.gif); 
+    background-size: 200%; 
+    position: fixed; 
+    right: 0; 
+    bottom: 0; 
+    color: transparent !important; 
+    height: 800px; 
+    width: 600px; 
+    border: none; 
+    box-shadow: none; 
+    padding: 0 !important;
+    background-repeat: no-repeat;
+} 
+div#footer::after {
+    content: " CSS theme made by Genesis on myspace.windows93.net";
+    color: white;
+}
+.blog {
+    background-color: black;
+    padding: 15px;
+}
+.topRight {
+    float: right;
+    width: calc( 60% - 20px );
+    padding: 10px;
+    margin-right: 180px;
+    background-color: black;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px #59fffc;
+    color: white;
+    text-align: center;
+}
+div#header {
+    all: unset;
+    font-family: Arial;
+    font-size: 15px;
+    background: black;
+    color: white;
+    position: fixed;
+    width: calc( 100% - 15px );
+    height: 22px;
+    padding: 5px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    padding-top: 6px;
+    overflow: hidden;
+    z-index: 300;
+    text-align: center;
+}
+.fwiendCounter {
+    display: none;
+}
+.blogs {
+    flex-grow: 3;
+    margin: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+#report { 
+    font-size: 0px; 
+    background-image:url(https://i.imgur.com/RYJOQ7D.gif);
+    background-size: contain; 
+} 
+#report:after { 
+    content:"Report";
+    font-size: medium; 
+    color: white;
+    padding-left: 10px; 
+} 
+#block { 
+    font-size: 0px; 
+    background-image:url(https://i.imgur.com/RYJOQ7D.gif);
+    background-size: contain; 
+} 
+
+#block:after { 
+    content:"Block";
+    font-size: medium; 
+    color: white;
+    padding-left: 10px; 
+} 
+#add{ 
+    font-size: 0px; 
+    background-image:url(https://i.imgur.com/RYJOQ7D.gif);
+    background-size: contain; 
+} 
+
+#add:after { 
+    content:"Friend";
+    font-size: medium; 
+    color: white; 
+    padding-left: 10px; 
+} 
+#sMsg { 
+    font-size: 0px; 
+    background-image:url(https://i.imgur.com/RYJOQ7D.gif);
+    background-size: contain; 
+} 
+#sMsg:after { 
+    content:"Message";
+    font-size: medium; 
+    color: white;
+    padding-left: 10px; 
+} 
+.blurbs>.blogs>div:not(:first-child) {
+    width: 96px;
+    text-align: center;
+    margin: 0px;
+}
+.blurbs>.blogs>div:not(:first-child):before {
+    content: "";
+    display: block;
+    width: 96px;
+    height: 64px;
+    background: url(https://i.imgur.com/RYJOQ7D.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+}
+div#hSub {
+    all: unset;
+    font-family: Arial;
+    font-size: 15px;
+    background: transparent;
+    font-size: medium;
+    bottom-margin: 30px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 30px;
+    position: fixed;
+    left: 0;
+    top: 34px;
+    width: 10px;
+    color: transparent;
+    height: 15px;
+    z-index: 300;
+    margin-left: 1060px;
+    margin-top: 150px;
+}
+.logo {
+    margin-right: 1175px;
+    margin-top: 75px;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px #59fffc;
+}
+.topLeft.blogCard {
+    height: 1000px;
+}
+.tableLeft {
+    background: #000;
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+html::after {
+    content: "";
+    background: transparent url(https://i.imgur.com/fBviyOh.gif) no-repeat;
+    background-size: 100%;
+    position: fixed;
+    float: right;
+    display: inline;
+    bottom: 0;
+    right: 5px;
+    height: 300px;
+    width: 200px;
+    margin-bottom: 480px;
+    left: 0;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.extended {
+    border: 2px solid white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #59fffc;
+    background: url(https://i.imgur.com/O9vfIxr.gif);
+}
+.fwiendFace img {
+    width: calc( 100% );
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px #59fffc;
+    border-radius: 100%;
+}
+div.boxHead {
+    display: none;
+}
+.rightHead {
+    height: 45px;
+    background: url(https://i.imgur.com/O9vfIxr.gif);
+    border: 2px solid white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #59fffc;
+    color: black;
+    font-size: 40px;
+}
+.blogTitle {
+    margin-left: 270px;
+    width: 500px;
+}
+h4 {
+    color: white;
+    margin-bottom: 0px;
+}
+.tableLeft img {
+    max-width: calc(100%);
+    image-orientation: from-image;
+    border: 2px solid white;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px #59fffc;
+}
+#viewFriends {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.player {
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: black;
+    color: white;
+    width: calc(100% - 10px );
+    border: 1px solid transparent;
+}
+.tableRight {
+    width: 75%;
+    background: #000;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+.songName span {
+
+display: inline-block;
+
+width: 600px;
+
+font-size: medium;
+
+padding-left: 100%;
+
+animation: marquee 15s linear infinite;
+}
+
+.songName span:hover {
+
+animation-play-state: paused;
+}
+
+@keyframes marquee{
+
+0% {
+
+transform: translate(0, 0);
+}
+
+100% {
+
+transform: translate(-100%, 0);
+}
+.songName {
+    margin-top: 0px;
+    display: none;
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 5px;
+}
