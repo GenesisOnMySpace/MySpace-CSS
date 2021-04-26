@@ -1,0 +1,453 @@
+body {
+    background: black;
+    font-family: courier;
+    background-image: url(https://i.imgur.com/BFKaWV5.gif);
+    background-attachment: fixed;
+    color: black;
+    text-align: center;
+    background-size: cover;
+    padding-top: 45px;
+    font-size: 15px;
+    -webkit-animation: fadeIn ease 4s;
+}
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/anime/ani-1/ani185.cur), auto !important;} /* End https://www.cursors-4u.com */
+div#online {
+    content: url(http://www.myspacegens.com/images/online_now/004.gif);
+    display: block;
+    background-size: auto;
+    margin-left: 35px;
+    filter: brightness(0.1);
+}
+div.topLeft.blogCard {
+    width: 200px;
+}
+.extended {
+    border: 1px solid white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 5px white;
+    background-color: white;
+}
+.blogCard .avatar {
+    width: 200px;
+    margin-right: 0px;
+    image-orientation: from-image;
+}
+.player {
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #000;
+    width: calc(100% - 10px );
+    border: 1px solid transparent;
+}
+html::after {
+    content: "";
+    background: transparent url(https://media3.giphy.com/media/10a8AOSeP6Rqfu/giphy.gif?cid=ecf05e47bo5qz9qs2uaiznh5mkv4oi4noanu8rh580shz5un&rid=giphy.gif) no-repeat;
+    position: fixed;
+    float: right;
+    display: inline;
+    bottom: 0;
+    right: 5px;
+    height: 390px;
+    width: 350px;
+    right: 0;
+}
+.player::before {
+    content: "";
+    display: block;
+    width: calc(40% -20px);
+    position: relative;
+    border-radius: 10px;
+    border: 5px double white;
+    height: 220px;
+    max-width: 418px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url(https://i.imgur.com/YIaIuIY.gif);
+    filter: grayscale(1); 
+}
+.boxButton {
+    display: inline-block;
+    width: calc( 49% - 60px );
+    padding-left: 30px;
+    height: 24px;
+    font-size: small;
+    color: blue;
+    padding-top: 1px;
+}
+#report {
+    font-size: 0px;
+    background-image: url(https://cutekawaiiresources.files.wordpress.com/2016/11/hello-kitty-bullet-161.gif);
+    background-size: contain;
+    margin-bottom: 5px;
+}
+#report:after {
+    content:"Report";
+    font-size: medium;
+    color:black; 
+}
+#block {
+    font-size: 0px;
+    background-image: url(https://cutekawaiiresources.files.wordpress.com/2016/11/hello-kitty-bullet-41.gif);
+    background-size: contain;
+}
+#block:after {
+    content:"Block";
+    font-size: medium;
+    color:black;
+}
+#add {
+    font-size: 0px;
+    background-image: url(https://cutekawaiiresources.files.wordpress.com/2016/11/hello-kitty-bullet-51.gif);
+    background-size: contain;
+}
+#add:after {
+    content:"Friend";
+    font-size: medium;
+    color:black;
+}
+#sMsg {
+    font-size: 0px;
+    background-image: url(https://cutekawaiiresources.files.wordpress.com/2016/11/hello-kitty-bullet-110.gif);
+    background-size: contain;
+}
+#sMsg:after {
+    content:"Message";
+    font-size: medium;
+    color:black;
+}
+.boxInfo {
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 45px;
+}
+div#header {
+    all: unset;
+    font-family: Arial;
+    font-size: 15px;
+    background: white;
+    color: black;
+    box-shadow: 0px 0px 50px white;
+    position: fixed;
+    width: 1023px;
+    margin-left: 198px;
+    height: 22px;
+    padding: 5px;
+    left: 0px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    top: 0px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid black;
+    padding-left: 10px;
+    padding-top: 6px;
+    overflow: hidden;
+    z-index: 300;
+}
+#hSub a {
+    color: black;
+    text-decoration: none;
+}
+div#hSub {
+    all: unset;
+    font-family: courier;
+    font-size: 15px;
+    background: white;
+    box-shadow: 0px 0px 50px white;
+    font-size: small;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+    position: fixed;
+    left: 0;
+    top: 34px;
+    width: 1023px;
+    margin-left: 198px;
+    color: #000;
+    height: 15px;
+    z-index: 300;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+a.logo {
+    color: transparent;
+    text-decoration: none;
+}
+.tableLeft > a > div {
+    overflow: hidden;
+    max-width: 115px;
+    text-align: center;
+    margin-left: 12px;
+}
+div#header::after {
+    content: "www.lǝvismaid.com";
+    font-size: 17px;
+    font-family: courier;
+    text-align: center;
+    color: black;
+    margin-left: 60px;
+}
+.tableLeft img {
+    height: 127px;
+    width: 127px;
+    border-radius: 100%;
+    image-orientation: from-image;
+    border: 5px double white;
+    box-shadow: 0px 0px 7px white;
+}
+.fwiendFace img {
+    width: calc( 100% );
+    border-radius: 100%;
+    border: 5px double white;
+    box-shadow: 0px 0px 7px white;
+}
+.url {
+    display: none;
+}
+.boxHead {
+    display: none;
+}
+#viewFriends {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.rightHead {
+    color: black;
+    box-shadow: 0px 0px 5px white;
+    background-color: white;
+}
+.fwiendCount {
+    color: black;
+}
+.tableRight {
+    width: 75%;
+    background: transparent;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+.avatar {
+    width: 200px;
+    border-radius: 100%;
+    margin-right: 20px;
+    cursor: zoom-in;
+    box-shadow: 0px 0px 10px white;
+    border: 10px double white;
+    image-orientation: from-image;
+}
+.tableLeft {
+    background: transparent;
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+h4 {
+    color: black;
+    margin-bottom: 0px;
+}
+.topLeft {
+    float: left;
+    height: 725px;
+    width: calc( 40% - 20px );
+    padding: 10px;
+    overflow-y: scroll;
+    position: fixed;
+    width: 375px;
+}
+#header a:not(.logo) {
+    margin-left: 10px;
+    color: #000;
+    font-size: small;
+    text-decoration: none;
+}
+div#container {
+    max-width: 1024px;
+    background: #ffffff82;
+    box-shadow: 0px 0px 50px white;
+    margin-left: auto;
+    border-bottom: 10px double black;
+    border-left: 10px double black;
+    border-right: 10px double black;
+    margin-right: auto;
+}
+div#footer::after {
+    content: "CSS made by Genesis for the user @lǝvismaid on MYSPACE";
+}
+.songName span {
+
+display: inline-block;
+
+width: 500px;
+
+font-size: medium;
+
+padding-left: 100%;
+
+animation: marquee 15s linear infinite;
+}
+
+.songName span:hover {
+
+animation-play-state: paused;
+}
+
+@keyframes marquee{
+
+0% {
+
+transform: translate(0, 0);
+}
+
+100% {
+
+transform: translate(-100%, 0);
+}
+.songName {
+    margin-top: 0px;
+    font-size: large;
+}
+}
+@keyframes slideinleft{
+        from {
+                margin-top: 100%;
+        }
+        to {
+                margin-top: 20px;
+        }
+
+}
+.topRight{
+        animation-duration: 5s;
+        animation-name: slideinleft;
+}
+
+@keyframes slideinright{
+    from {
+        margin-top: -100%;
+    }
+
+    to {
+        margin-top: 20px;
+
+    }
+}
+.topLeft{
+        animation-duration: 5s;
+        animation-name: slideinright;
+}
+
+.avatar:hover{
+      animation:shake 0.9s;
+      animation-iteration-count:infinite;
+}
+
+.fwiendFace:hover{
+      animation:shake 0.9s;
+      animation-iteration-count:infinite;
+}
+.tableLeft:hover{
+      animation:shake 0.9s;
+      animation-iteration-count:infinite;
+}
+a {
+    color: black;
+}
+::selection { background: #ff000050; }
+.blinkYellow, .blinkViolet {
+    animation:blinkingTextBlue 0.3s infinite;
+}
+.blinkGreen{
+	animation:blinkingTextWhite 0.3s infinite;
+}
+@keyframes blinkingTextWhite {
+0% {
+    color: black;
+}
+49% {
+    color: white;
+}
+50% {
+    color: white;
+}
+99% {
+    color: white;
+}
+100% {
+    color: black;
+}
+}
+@keyframes shake{
+    0% {
+        transform:translate(1px,1px) rotate(0deg);
+    }
+ 
+    10% {
+        transform:translate(-1px,-2px) rotate(-1deg);
+    }
+ 
+    20% {
+        transform:translate(-3px,0px) rotate(1deg);
+    }
+ 
+    30% {
+        transform:translate(3px,2px) rotate(0deg);
+    }
+ 
+    40% {
+        transform:translate(1px,-1px) rotate(1deg);
+    }
+ 
+    50% {
+        transform:translate(-1px,2px) rotate(-1deg);
+    }
+ 
+    60% {
+        transform:translate(-3px,1px) rotate(0deg);
+    }
+ 
+    70% {
+        transform:translate(3px,1px) rotate(-1deg);
+    }
+ 
+    80% {
+        transform:translate(-1px,-1px) rotate(1deg);
+    }
+ 
+    90% {
+        transform:translate(1px,2px) rotate(0deg);
+    }
+ 
+    100% {
+        transform:translate(1px,1px) rotate(0deg);
+    }
+ 
+}
+@keyframes changeColor{
+    0%{color:white;}
+    10%{color: black;}
+    20%{color: white;}
+    30%{color: black;}
+    40%{color:white;}
+    50%{color: black;}
+    60%{color: white;}
+    70%{color: black;}
+    80%{color: white;}
+    90%{color: black;}
+    100%{color: white;}
+}
+
