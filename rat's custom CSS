@@ -1,0 +1,508 @@
+body {
+    background: #fff;
+    background-image: url(https://i.imgur.com/cPW249J.png);
+    background-attachment: fixed;
+    text-align: center;
+    font-family: courier;
+    padding-top: 35px;
+    background-size: cover;
+    font-size: 15px;
+}
+div.topLeft.blogCard {
+    height: 280px;
+    margin-top: 175px;
+}
+.blogCard .avatar {
+    width: 200px;
+    margin-right: 0px;
+    image-orientation: from-image;
+}
+.blogTitle {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    position: fixed;
+}
+.blog {
+    background-color: transparent;
+    padding: 15px;
+}
+.url {
+    background: url(https://i.imgur.com/bdBauVQ.png) no-repeat;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    color: #ffffff00;
+    background-size: 260px;
+    height: 270px;
+    width: 230px;
+    border: none;
+    box-shadow: none;
+    filter: drop-shadow(8px 9px 15px #00000044);
+    z-index: 1000;
+    font-size: 0px;
+    opacity: 1;
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat1015.cur), auto !important;} /* End https://www.cursors-4u.com */
+.fwiendCount {
+    color: #f8df53;
+}
+.topRight {
+    float: right;
+    width: calc( 60% - 20px );
+    padding: 10px;
+}
+.fwiendCounter:before{
+    display: block;
+    color: black;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    content: "Friends";
+    border: 2px dashed black;
+    width: 100%;
+    background: #f8df53;
+    background-image: url(https://i.imgur.com/rf4Nmp8.gif);
+    background-size: 500px;
+    margin-bottom: 0px;
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+ }
+div.box.comments::before {
+    display: block;
+    font-size: 20px;
+    color: black;
+    background-image: url(https://i.imgur.com/rf4Nmp8.gif);
+    background-size: cover;
+    content: "Leave a comment!";
+    border: 2px dashed black;
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 0px;
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.rightHead {
+    display: none;
+}
+.extended {
+    border: 2px dashed black;
+    border-radius: 10px;
+    background: #f8df53;
+    background-image: url(https://i.imgur.com/rf4Nmp8.gif);
+    background-size: 500px;
+}
+a {
+    color: black;
+}
+div#online {
+    content: url(http://www.myspacegens.com/images/online_now/5.gif);
+    display: block;
+    background-size: auto;
+    margin-left: 35px;
+    filter: grayscale(1);
+}
+
+#footer {
+    font-size: 10px;
+}
+#hSub a {
+    color: #fff;
+    text-decoration: none;
+    font-family: courier;
+}
+.box {
+    overflow: hidden;
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+div#hSub {
+    all: unset;
+    font-family: Arial;
+    font-size: 15px;
+    background: #d24992;
+    font-size: small;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+    position: fixed;
+    left: 0;
+    top: 34px;
+    width: calc(100% - 15px );
+    color: #000;
+    height: 15px;
+    z-index: 300;
+}
+div#header {
+    all: unset;
+    font-family: courier;
+    font-size: 15px;
+    background: #f8df53;
+    background-image: url(https://i.imgur.com/rf4Nmp8.gif);
+    background-size: 500px;
+    color: black;
+    position: fixed;
+    width: calc( 100% - 15px );
+    height: 22px;
+    padding: 5px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    padding-top: 6px;
+    overflow: hidden;
+    z-index: 300;
+}
+.fwiendFace b {
+    overflow: hidden;
+    margin-left: 5px;
+    color: #f8df53;
+}
+
+.fwiendFace img {
+    width: calc( 100% );
+    border-radius: 10px;
+    border: 2px dashed #f8df53;
+}
+.fwiendFace:hover {
+    transform: scale(1.1);
+    animation: wob .5s linear infinite;
+    background: #ffffff00;
+    transition: 0.5s;
+}
+#add:hover {
+    border-radius: 10px;
+    transform: scale(1.1);
+    animation: wob .5s linear infinite;
+    transition: 0.5s;
+}
+#sMsg:hover {
+    border-radius: 10px;
+    transform: scale(1.1);
+    animation: wob .5s linear infinite;
+    transition: 0.5s;
+}
+#block:hover {
+    border-radius: 10px;
+    transform: scale(1.1);
+    animation: wob .5s linear infinite;
+    transition: 0.5s;
+}
+#report:hover {
+    border-radius: 10px;
+    transform: scale(1.1);
+    animation: wob .5s linear infinite;
+    transition: 0.5s;
+}
+td.shortRight {
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+div#footer::after {
+    content: "CSS made by Genesis for the user @rat on MYSPACE";
+}
+#report {
+    font-size: 0px;
+    background-image: url(https://i.imgur.com/jcjNWWx.gif);
+    background-size: contain;
+    margin-bottom: 5px;
+}
+#report:after {
+    content:"Report";
+    font-size: small;
+    color:black; 
+}
+#block {
+    font-size: 0px;
+    background-image: url(https://i.imgur.com/jcjNWWx.gif);
+    background-size: contain;
+}
+#block:after {
+    content:"Block";
+    font-size: small;
+    color:black;
+}
+#add {
+    font-size: 0px;
+    background-image: url(https://i.imgur.com/jcjNWWx.gif);
+    background-size: contain;
+}
+#add:after {
+    content:"Friend";
+    font-size: small;
+    color:black;
+}
+#sMsg {
+    font-size: 0px;
+    background-image: url(https://i.imgur.com/jcjNWWx.gif);
+    background-size: contain;
+}
+#sMsg:after {
+    content:"Message";
+    font-size: small;
+    color:black;
+}
+#name.uName {
+    display: block;
+    content: "";
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+    margin-top: 0px;
+    color: black;
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.player {
+    padding: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: transparent;
+    color: #000;
+    width: calc(100% - 10px );
+    border: 1px solid transparent;
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.player::before {
+    content: "";
+    display: block;
+    width: calc(40% -20px);
+    position: relative;
+    border-radius: 10px;
+    border: 2px dashed #f8df53;
+    height: 200px;
+    max-width: 418px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url(https://media.giphy.com/media/crR0fLv8mARl3m5l6N/giphy.gif);
+}
+h4 {
+    color: black;
+    margin-bottom: 0px;
+}
+#commentInput {
+    width: calc( 100% - 6px );
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 100px;
+}
+#viewFriends {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.tableLeft > a > div {
+    overflow: hidden;
+    max-width: 115px;
+    text-align: center;
+    margin-left: 4px;
+    color: black;
+}
+.tableLeft img {
+    max-width: calc(100%);
+    border: 2px solid black;
+    border-radius: 10px;
+    image-orientation: from-image;
+}
+.tableLeft:hover {
+    border-radius: 10px;
+    transform: scale(0.9);
+    animation: wob .5s linear infinite;
+    transition: 0.5s;
+}
+#userWall {
+    margin-top: 10px;
+    word-wrap: break-word;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px dashed black;
+    background: #f8df53;
+}
+.tableLeft {
+    background: #f8df53;
+    width: 25%;
+    vertical-align: top;
+    overflow: hidden;
+    background-image: url(https://i.imgur.com/rf4Nmp8.gif);
+    background-size: 500px;   
+}
+.boxHead {
+    display: none;
+}
+.boxInfo {
+    border: 1px solid transparent;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: #d24992;
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.tableRight {
+    width: 75%;
+    background: #f8df53;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+    background-image: url(https://i.imgur.com/rf4Nmp8.gif);
+    background-size: 500px;
+}
+.avatar {
+    width: 200px;
+    margin-right: 20px;
+    cursor: zoom-in;
+    border-radius: 10px;
+    border: 4px dashed #f8df53;
+    image-orientation: from-image;
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.topRight::before {
+    content: url(myspace.windows93.net/);
+    text-align: center;
+    padding-top: 36px;
+    position: fixed;
+    left: 0;
+    height: 00px;
+    bottom: 0;
+    width: 320px;
+    background-image: url();
+    background-repeat: no-repeat;
+    z-index: 10000;
+    opacity: 1;
+    margin-left: 0px;
+}
+.topLeft {
+    float: left;
+    width: calc( 40% - 20px );
+    padding: 10px;
+    width: 380px;
+    position: fixed;
+    height: 620px;
+    overflow-x: scroll;
+}
+#container {
+    max-width: 1024px;
+    margin-left: 190px;
+    height: 640px;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: #d24992;
+    border: 7px dashed #f8df53;
+    position: fixed;
+    overflow-y: scroll;
+    margin-right: 190px;
+}
+.logo b:before {
+    white-space: pre;
+    color: black;
+} 
+a.logo {
+    color: transparent;
+    text-decoration: none;
+    font-family: courier;
+}
+.logo b:before {
+
+content: "HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS  HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS HOT PANTS ";
+
+display: inline-block;
+
+width: 7100px;
+
+font-size: medium;
+
+padding-left: 100%;
+
+animation: marquee 25s linear infinite;
+
+}
+.logo b:before:hover {
+
+animation-play-state: paused;
+}
+
+@keyframes marquee{
+
+0% {
+
+transform: translate(0, 0);
+}
+
+100% {
+
+transform: translate(-100%, 0);
+}
+}
+@keyframes spin {
+0% {
+transform: translate(0, 0px);
+}
+50% {
+transform: translate(0, 8px);
+}
+100% {
+transform: translate(0, 0px);}
+}
+.songName span {
+
+display: inline-block;
+
+width: 500px;
+
+font-size: small;
+
+padding-left: 100%;
+
+animation: marquee 15s linear infinite;
+}
+
+.songName span:hover {
+
+animation-play-state: paused;
+}
+
+@keyframes marquee{
+
+0% {
+
+transform: translate(0, 0);
+}
+
+100% {
+
+transform: translate(-100%, 0);
+}
+.songName {
+    margin-top: 0px;
+    font-size: large;
+}
+}
+
+@keyframes spin {
+0% {
+transform: translate(0, 0px);
+}
+50% {
+transform: translate(0, 8px);
+}
+100% {
+transform: translate(0, 0px);}
+}
