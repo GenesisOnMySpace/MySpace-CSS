@@ -9,6 +9,19 @@ body {
     padding-top: 45px;
     font-size: 15px;
 }
+a.logo {
+    color: transparent;
+    margin-left: 150px;
+    text-decoration: none;
+    font-family: courier;
+}
+div#header::after {
+    content: "Welcome to my Agoraphobic World";
+    font-size: 17px;
+    font-family: courier;
+    text-align: center;
+    color: white;
+}
 div.topLeft.blogCard {
     margin-top: 200px;
     height: 280px;
