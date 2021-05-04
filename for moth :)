@@ -1,0 +1,26 @@
+}
+.logo b:before {
+    white-space: pre;
+    color: black;
+} 
+
+a.logo {
+    color: transparent;
+    text-decoration: none;
+    font-family: courier;
+}
+.logo b:before {
+
+content: "here is where you put what you want it to say";
+
+display: inline-block;
+
+width: 7100px;
+
+font-size: medium;
+
+padding-left: 100%;
+
+animation: marquee 25s linear infinite;
+
+}
