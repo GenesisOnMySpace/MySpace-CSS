@@ -1,0 +1,488 @@
+body {
+    background: #fff;
+    background-image: url(https://i.imgur.com/U6z05jd.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: courier;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 15px;
+}
+.blurbs::after {
+    content: url(myspace.windows93.net/);
+    text-align: center;
+    padding-top: 36px;
+    position: fixed;
+    pointer-events: none;
+    margin-left: 40px;
+    left: 0;
+    pointer-events: none;
+    filter: grayscale(1);
+    height: 1200px;
+    background-size: 40%;
+    bottom: 0;
+    width: 540px;
+    background-image: url(https://i.imgur.com/L6WMvKr.gif);
+    background-repeat: no-repeat;
+    z-index: 10000; 
+}
+.url { 
+    border: transparent; 
+    font-size: 0px; 
+    background: url(https://i.imgur.com/YxuHSFM.gif); 
+    background-size: 260px; 
+    position: fixed; 
+    left: 0; 
+    pointer-events: none;
+    bottom: 0; 
+    margin-left: 540px;
+    background-repeat: no-repeat;
+    color: transparent !important; 
+    height: 260px; 
+    width: 260px; 
+    border: none; 
+    box-shadow: none; 
+    padding: 0 !important;
+} 
+div.box.comments::before {
+    display: block;
+    font-size: 15px;
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+    content: "Leave a comment!";
+    border: 1px solid black;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.rightHead {
+    background: white;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-left: 4px;
+}
+h4 {
+    color: black;
+    margin-bottom: 0px;
+}
+.extended {
+    border: 1px solid black;
+    text-align: center;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+a.logo {
+    display: none;
+}
+
+#header a:not(.logo) {
+    margin-left: 10px;
+    color: black;
+    font-size: small;
+    margin-right: 15px;
+    text-decoration: none;
+}
+div#header {
+    all: unset;
+    font-family: courier;
+    font-size: 15px;
+    background: transparent;
+    color: black;
+    position: fixed;
+    width: 702px;
+    height: 22px;
+    padding: 5px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid transparent;
+    padding-left: 10px;
+    padding-top: 6px;
+    overflow: hidden;
+    z-index: 300;
+}
+.tableLeft:hover {
+    border-radius: 10px;
+    transform: scale(1.1);
+    animation: wob .5s linear infinite;
+    transition: 0.5s;
+}
+.fwiendCount {
+    color: black;
+}
+.tableLeft > a > div {
+    overflow: hidden;
+    max-width: 115px;
+    text-align: center;
+    margin-left: 20px;
+}
+#commentInput {
+    width: calc( 100% - 6px );
+    margin: 0;
+    margin-top: 10px;
+    height: 100px;
+    border-radius: 20px;
+}
+.tableLeft img {
+    max-width: calc(100%);
+    image-orientation: from-image;
+    border: 3px dashed white;
+    border-radius: 20px;
+}
+.tableLeft {
+    background: transparent;
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.tableRight {
+    width: 75%;
+    background: transparent;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+#viewFriends {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fwiendFace:hover {
+    transform: scale(1.1);
+    animation: wob .5s linear infinite;
+    transition: 0.5s;
+}
+.fwiendFace img {
+    width: calc( 100% );
+    border: 3px dashed white;
+    border-radius: 20px;
+}
+#hSub a {
+    color: black;
+    text-decoration: none;
+}
+div#hSub {
+    background: transparent;
+    font-family: Courier New;
+    margin-left: 600px;
+    color: transparent;
+    margin-top: 210px;
+    position: absolute;
+    height: 300px;
+    width: 5px;
+}
+#footer {
+    display: none;
+}
+.topRight {
+    top: 0;
+    box-shadow: 0px 0px 40px black;
+    width: 700px;
+    border-left: 3px dashed white;
+    right: 0;
+    position: fixed;
+    height: 770px;
+    overflow-y: scroll;
+    background-color: #fffc9a;
+}
+div#online {
+    content: url(http://www.myspacegens.com/images/online_now/004.gif);
+    display: block;
+    background-size: auto;
+    margin-left: 54px;
+}
+
+#add:hover {
+    border-radius: 10px;
+    transform: scale(1.2);
+    animation: wob .5s linear infinite;
+    transition: 0.5s;
+}
+#report:hover {
+    border-radius: 10px;
+    transform: scale(1.2);
+    animation: wob .5s linear infinite;
+    transition: 0.5s;
+}
+#block:hover {
+    border-radius: 10px;
+    transform: scale(1.2);
+    animation: wob .5s linear infinite;
+    transition: 0.5s;
+}
+#sMsg:hover {
+    border-radius: 10px;
+    transform: scale(1.2);
+    animation: wob .5s linear infinite;
+    transition: 0.5s;
+}
+#report {
+    font-size: 0px;
+    background-image:url(https://i.imgur.com/iXdF8Bd.gif);
+    background-size: 25px;
+}
+#report:after {
+    content:"Report";
+    font-size: medium;
+    color: black;
+}
+#block {
+    font-size: 0px;
+    background-image:url(https://i.imgur.com/iXdF8Bd.gif);
+    background-size: 25px;
+}
+#block:after {
+    content:"Block";
+    font-size: medium;
+    color: black;
+}
+#add {
+    font-size: 0px;
+    background-image:url(https://i.imgur.com/iXdF8Bd.gif);
+    background-size: 25px;
+}
+#add:after {
+    content:"Friend";
+    font-size: medium;
+    color: black;
+}
+#sMsg {
+    font-size: 0px;
+    background-image:url(https://i.imgur.com/iXdF8Bd.gif);
+    background-size: 25px;
+}
+#sMsg:after {
+    content:"Message";
+    font-size: medium;
+    color:black;
+}
+.avatar {
+    width: 200px;
+    border: 3px dashed white;
+    border-radius: 20px;
+    margin-right: 20px;
+    cursor: zoom-in;
+    image-orientation: from-image;
+}
+.avatar:hover {
+    transform: scale(1.1);
+    animation: wob .5s linear infinite;
+    box-shadow: 0 0 1rem black;
+    transition: 0.5s;
+}
+
+.player {
+    padding: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: transparent;
+    color: #000;
+    width: calc(100% - 10px );
+    border: 1px solid transparent;
+}
+.songName {
+    margin-top: 0px;
+    font-size: small;
+    text-align: center;
+}
+.boxInfo {
+    border: 1px solid transparent;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 300px;
+    margin-left: 55px;
+}
+.boxHead {
+    display: none;
+}
+.player::before {
+    content: "";
+    display: block;
+    filter: grayscale(0.2);
+    width: calc(40% -20px);
+    position: relative;
+    border-radius: 20px;
+    border: 3px dashed white;
+    height: 205px;
+    max-width: 418px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://i.imgur.com/xohlGC5.gif);
+}
+#name.uName {
+    display: block;
+    content: "";
+    filter: drop-shadow(0px 4px 1px gray);
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+    color: black;
+}
+.topRight::after {
+    content: url(https://i.imgur.com/jS3YoqU.gif);
+    position: fixed;
+    right: 0;
+    pointer-events: none;
+    bottom: 0px;
+    margin-right: 1100px;
+    height: 280px;
+    margin-bottom: 80px;
+    animation: shake 0.8s;
+    animation-iteration-count: infinite;
+}
+.avatar::before {
+    content: url(myspace.windows93.net/);
+    text-align: center;
+    padding-top: 36px;
+    position: fixed;
+    margin-left: 25px;
+    left: 0;
+    height: 320px;
+    background-size: 40%;
+    bottom: 0;
+    margin-bottom: 415px;
+    width: 540px;
+    background-image: url(https://i.imgur.com/L6WMvKr.gif);
+    background-repeat: no-repeat;
+    z-index: 10000;
+    animation: shake 1.0s;
+    animation-iteration-count: infinite;
+}
+.topRight::before {
+    content: url(myspace.windows93.net/);
+    text-align: center;
+    padding-top: 36px;
+    position: fixed;
+    margin-left: 450px;
+    left: 0;
+    pointer-events: none;
+    height: 320px;
+    background-size: 40%;
+    bottom: 0;
+    margin-bottom: 415px;
+    width: 540px;
+    background-image: url(https://i.imgur.com/B9h3AAh.gif);
+    background-repeat: no-repeat;
+    z-index: 10000;
+    animation: shake 1.0s;
+    animation-iteration-count: infinite;
+}
+.topRight {
+    float: right;
+    padding: 10px;
+    right: 0;
+}
+.topLeft {
+    left: 0;
+    width: 400px;
+    height: 600px;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #fffc9a;
+    border: 3px dashed white;
+    border-radius: 20px;
+    position: fixed;
+    box-shadow: 0px 0px 40px black;
+    margin-top: 25px;
+    margin-left: 125px;
+}
+.songName span {
+
+display: inline-block;
+
+width: 300px;
+
+font-size: small;
+
+padding-left: 100%;
+
+animation: marquee 15s linear infinite;
+}
+
+.songName span:hover {
+
+animation-play-state: paused;
+}
+
+@keyframes marquee{
+
+0% {
+
+transform: translate(0, 0);
+}
+
+100% {
+
+transform: translate(-100%, 0);
+}
+.songName {
+    margin-top: 0px;
+    font-size: medium;
+}
+}
+@keyframes shake{
+    0% {
+        transform:translate(1px,1px) rotate(0deg);
+    }
+ 
+    10% {
+        transform:translate(-1px,-2px) rotate(-1deg);
+    }
+ 
+    20% {
+        transform:translate(-3px,0px) rotate(1deg);
+    }
+ 
+    30% {
+        transform:translate(3px,2px) rotate(0deg);
+    }
+ 
+    40% {
+        transform:translate(1px,-1px) rotate(1deg);
+    }
+ 
+    50% {
+        transform:translate(-1px,2px) rotate(-1deg);
+    }
+ 
+    60% {
+        transform:translate(-3px,1px) rotate(0deg);
+    }
+ 
+    70% {
+        transform:translate(3px,1px) rotate(-1deg);
+    }
+ 
+    80% {
+        transform:translate(-1px,-1px) rotate(1deg);
+    }
+ 
+    90% {
+        transform:translate(1px,2px) rotate(0deg);
+    }
+ 
+    100% {
+        transform:translate(1px,1px) rotate(0deg);
+    }
+}
+
+@keyframes spin {
+0% {
+transform: translate(0, 0px);
+}
+50% {
+transform: translate(0, 6px);
+}
+100% {
+transform: translate(0, 0px);}
+}
