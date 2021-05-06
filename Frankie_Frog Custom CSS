@@ -8,6 +8,7 @@ body {
     padding-top: 45px;
     font-size: 15px;
 }
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol335.cur), auto !important;} /* End https://www.cursors-4u.com */
 .blurbs::after {
     content: url(myspace.windows93.net/);
     text-align: center;
@@ -59,7 +60,6 @@ div.box.comments::before {
     overflow: auto;
     box-sizing: border-box;
 }
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol335.cur), auto !important;} /* End https://www.cursors-4u.com */
 .rightHead {
     background: white;
     color: black;
