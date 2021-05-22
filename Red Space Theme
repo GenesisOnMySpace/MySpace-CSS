@@ -1,0 +1,371 @@
+body {
+    background: black;
+    background-size: 200px;
+    background-attachment: fixed;
+    background-image: url(https://i.imgur.com/3cWe6wO.gif);
+    font-family: impact;
+    color: white;
+    padding-top: 45px;
+    font-size: 15px;
+    text-align: center;
+}
+div.topRight.blogCard {
+    position: fixed
+}
+.blogPost {
+    width: 640px;
+}
+div.topLeft.blogCard {
+    position: fixed;
+}
+.blogCard .avatar {
+    width: 207px;
+}
+.blog {
+    background-color: transparent;
+    padding: 15px;
+}
+.extended {
+    border: 2px solid white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.rightHead {
+    background: black;
+    color: #da3535;
+    border: 2px solid white;
+    padding-left: 4px;
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/symbols/sym-8/sym731.cur), auto !important;} /* End https://www.cursors-4u.com */
+.boxInfo {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+#report {
+    font-size: 0px;
+    background-image:url(https://i.imgur.com/TeoPibl.png);
+    background-size: contain;
+}
+#report:after {
+    content:"Report";
+    font-size: medium;
+    color: white;
+}
+#block {
+    font-size: 0px;
+    background-image:url(https://i.imgur.com/TeoPibl.png);
+    background-size: contain;
+}
+#block:after {
+    content:"Block";
+    font-size: medium;
+    color: white;
+    padding-top: 8px;
+}
+#add {
+    font-size: 0px;
+    background-image:url(https://i.imgur.com/TeoPibl.png);
+    background-size: contain;
+}
+#add:after {
+    content:"Friend";
+    font-size: medium;
+    color: white;
+}
+#sMsg {
+    font-size: 0px;
+    background-image:url(https://i.imgur.com/TeoPibl.png);
+    background-size: contain
+}
+#sMsg:after {
+    content:"Message";
+    font-size: medium;
+    color: white;
+}
+img:hover {
+    animation: shake 0.9s;
+    animation-iteration-count: infinite;
+}
+#add:hover {
+    animation: shake 0.9s;
+    animation-iteration-count: infinite;
+}
+#report:hover {
+    animation: shake 0.9s;
+    animation-iteration-count: infinite;
+}
+#block:hover {
+    animation: shake 0.9s;
+    animation-iteration-count: infinite;
+}
+#sMsg:hover {
+    animation: shake 0.9s;
+    animation-iteration-count: infinite;
+}
+#name.uName {
+    display: block;
+    content: "";
+    text-shadow: 0px 0px 4px white;
+    font-size: 50px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+    color: white;
+}
+a.logo {
+    color: white;
+    margin-right: 50px;
+    text-shadow: 0px 0px 4px white;
+    font-size: large;
+    text-decoration: none;
+}
+div#hSub {
+    all: unset;
+    background-image: url(https://i.imgur.com/E6W4uAF.gif);
+    font-family: impact;
+    font-size: 15px;
+    background: black;
+    font-size: medium;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+    position: fixed;
+    left: 0;
+    border-bottom: 3px solid white;
+    top: 34px;
+    width: calc(100% - 15px );
+    color: white;
+    height: 15px;
+    z-index: 300;
+}
+div#header {
+    all: unset;
+    font-family: impact;
+    font-size: 15px;
+    background: black;
+    background-image: url(https://i.imgur.com/E6W4uAF.gif);
+    color: #fff;
+    position: fixed;
+    width: calc( 100% - 15px );
+    height: 22px;
+    padding: 5px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    padding-top: 6px;
+    overflow: hidden;
+    z-index: 300;
+}
+.tableLeft > a > div {
+    overflow: hidden;
+    max-width: 115px;
+    text-align: center;
+    margin-left: 9px;
+}
+.player {
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: black;
+    color: #da3535;
+    width: calc(100% - 10px );
+    border: 1px solid transparent;
+}
+h4 {
+    color: #da3535;
+    margin-bottom: 0px;
+}
+.avatar {
+    box-shadow: 0px 0px 10px white;
+    border: 2px solid white;
+    width: 200px;
+    margin-right: 20px;
+    cursor: zoom-in;
+    image-orientation: from-image;
+}
+.url { 
+    border: transparent; 
+    font-size: 0px; 
+    background: url(https://i.imgur.com/ujhOwlr.gif); 
+    background-size: 260px; 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    color: transparent !important; 
+    height: 260px; 
+    width: 260px; 
+    border: none; 
+    box-shadow: none; 
+    padding: 0 !important;
+} 
+.boxHead {
+    display: none;
+}
+.tableLeft img {
+    max-width: calc(100%);
+    box-shadow: 0px 0px 5px white;
+    image-orientation: from-image;
+    border: 2px solid white;
+}
+.fwiendFace img {
+    box-shadow: 0px 0px 5px white;
+    width: calc( 100% );
+    border: 2px solid white;
+}
+a {
+    color: #da3535;
+}
+#viewFriends {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fwiendFace b {
+    overflow: hidden;
+    color: #da3535;
+}
+.fwiendCount {
+    color: #da3535;
+}
+.tableLeft {
+    background: transparent;
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.tableRight {
+    width: 75%;
+    background: transparent;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+.topLeft {
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px white;
+    background-repeat: no-repeat;
+    background: black;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    border: 3px solid white;
+}
+.topRight {
+    box-shadow: 0px 0px 10px white;
+    margin-top: 20px;
+    background: black;
+    margin-bottom: 20px;
+    border: 3px solid white;
+}
+div#footer::after {
+    content: " CSS made by Genesis on myspace.windows93.net";
+}
+.songName span {
+
+display: inline-block;
+
+width: 500px;
+
+font-size: small;
+
+padding-left: 100%;
+
+animation: marquee 15s linear infinite;
+}
+
+.songName span:hover {
+
+animation-play-state: paused;
+}
+
+@keyframes marquee{
+
+0% {
+
+transform: translate(0, 0);
+}
+
+100% {
+
+transform: translate(-100%, 0);
+}
+.songName {
+    margin-top: 0px;
+    font-size: large;
+}
+}
+@keyframes shake{
+    0% {
+        transform:translate(1px,1px) rotate(0deg);
+    }
+ 
+    10% {
+        transform:translate(-1px,-2px) rotate(-1deg);
+    }
+ 
+    20% {
+        transform:translate(-3px,0px) rotate(1deg);
+    }
+ 
+    30% {
+        transform:translate(3px,2px) rotate(0deg);
+    }
+ 
+    40% {
+        transform:translate(1px,-1px) rotate(1deg);
+    }
+ 
+    50% {
+        transform:translate(-1px,2px) rotate(-1deg);
+    }
+ 
+    60% {
+        transform:translate(-3px,1px) rotate(0deg);
+    }
+ 
+    70% {
+        transform:translate(3px,1px) rotate(-1deg);
+    }
+ 
+    80% {
+        transform:translate(-1px,-1px) rotate(1deg);
+    }
+ 
+    90% {
+        transform:translate(1px,2px) rotate(0deg);
+    }
+ 
+    100% {
+        transform:translate(1px,1px) rotate(0deg);
+    }
+ 
+}
+a:hover {
+  animation: changeColor 1.5s linear infinite;
+}
+@keyframes changeColor{
+    0%{color:#ff0000;}
+    10%{color:#ffffff}
+    20%{color:#ff0000;}
+    30%{color:#ffffff}
+    40%{color:#ff0000;}
+    50%{color:#ffffff}
+    60%{color:#ff0000;}
+    70%{color:#ffffff}
+    80%{color:#ff0000;}
+    90%{color:#ffffff}
+    100%{color:#ff0000}
+}
+
