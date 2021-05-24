@@ -226,16 +226,4 @@ div#footer::after {
 .uName {
      text-align: center;
 }
-#age::after {
-    content: "X";
-    font-size: 15px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    visibility: visible;
-    margin-left: 7px;
-}
-#age {
-    position: relative;
-    visibility: hidden;
-}
+
