@@ -1,0 +1,32 @@
+}
+.topRight::before {
+    content: url(myspace.windows93.net/);
+    text-align: center;
+    padding-top: 36px;
+    position: fixed;
+    left: 0;
+    pointer-events: none;
+    height: 320px;
+    bottom: 0;
+    width: 400px;
+    background-image: url(https://i.imgur.com/GfK4BY3.gif);
+    background-repeat: no-repeat;
+    z-index: 10000;
+    opacity: 1;
+    margin-bottom: 430px;
+    margin-left: 1250px;
+    animation:shake 0.4s;
+    animation-iteration-count:infinite;
+}
+.topRight::after {
+    pointer-events: none;
+    content: url(https://i.imgur.com/GfK4BY3.gif);
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    margin-left: 20px;
+    height: 290px;
+    margin-bottom: 50px;
+    animation:shake 0.3s;
+    animation-iteration-count:infinite;
+}
