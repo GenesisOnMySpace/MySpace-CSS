@@ -1,0 +1,46 @@
+}
+.logo b:before {
+    white-space: pre;
+    color: white;
+} 
+
+a.logo {
+    color: transparent;
+    text-decoration: none;
+    font-family: courier;
+}
+.logo b:before {
+
+content: "Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis Genesis";
+
+font-family: impact;
+
+display: inline-block;
+
+text-shadow: 0 0 1rem white;
+
+width: 13000px;
+
+font-size: 90px;
+
+padding-left: 100%;
+
+animation: marquee 35s linear infinite;
+
+}
+.logo b:before:hover {
+
+animation-play-state: paused;
+}
+
+@keyframes marquee{
+
+0% {
+
+transform: translate(0, 0);
+}
+
+100% {
+
+transform: translate(-100%, 0);
+}
